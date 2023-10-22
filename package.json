@@ -9,16 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.14",
+    "lodash": "^4.17.21",
+    "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.5"
+    "react-fancy-circular-carousel": "^1.0.8",
+    "react-slick": "^0.29.0",
+    "react-use": "^17.4.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/lodash": "^4.14.200",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.10",
     "eslint": "^8",
-    "eslint-config-next": "13.5.5"
+    "eslint-config-next": "13.5.5",
+    "typescript": "^5"
   }
 }
